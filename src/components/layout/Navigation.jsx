@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { MessageSquare, CreditCard, LayoutDashboard, Settings, Menu, X } from "lucide-react";
+import { MessageSquare, CreditCard, LayoutDashboard,Settings, Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 const navItems = [
@@ -8,6 +8,7 @@ const navItems = [
   { path: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { path: "/payment", label: "Upgrade", icon: CreditCard },
   { path: "/settings", label: "Settings", icon: Settings },
+  { path: "/admin", label: "Admin Dashboard", icon: Settings },
 ];
 
 const Navigation = () => {
