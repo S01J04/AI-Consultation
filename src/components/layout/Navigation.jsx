@@ -49,7 +49,7 @@ const Navigation = () => {
           animate={{ x: 0 }}
           exit={{ x: "100%" }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
-          className="fixed top-0 right-0 h-1/2 w-64 bg-white z-[1000] shadow-lg p-6 md:hidden"
+          className="fixed top-0 right-0 h-full w-64 bg-white z-[1000] shadow-lg p-6 md:hidden"
         >
           <button
             className="absolute top-4 right-4 p-2 rounded-lg focus:outline-none"

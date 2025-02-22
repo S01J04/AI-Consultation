@@ -9,12 +9,12 @@ const Header: React.FC = () => {
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className=" hidden md:flex  items-center space-x-2">
+          <Link to="/" className=" flex  items-center space-x-2">
             <Brain className="h-8 w-8 text-indigo-600" />
             <span className="text-xl font-bold text-gray-900">AI Consultant</span>
           </Link>
           <Navigation />
-          <AuthButtons  className=""/>
+          <span className='hidden md:flex'><AuthButtons  className=""/></span>
         </div>
       </div>
     </header>
