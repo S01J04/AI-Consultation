@@ -38,7 +38,7 @@ const Home = () => {
           Start your journey to success today.
         </motion.p>
         <motion.div 
-          className="mt-10 flex sm:flex-col justify-center gap-4"
+          className="mt-10 flex sm:flex-col md:flex-row justify-center gap-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
